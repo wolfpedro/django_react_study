@@ -10,7 +10,7 @@
 
 2. Clone this repository and navigate to it:
    ```bash
-   git clone ---tbd
+   git clone git@github.com:wolfpedro/django_react_study.git
    ```
 
 3. Install dependencies using Poetry:

@@ -2,7 +2,7 @@
 name = "django_react_study"
 version = "0.1.0"
 description = "Study in django and react"
-authors = ["wolfpedro" <pedro.wolf@alumni.usp.br>]
+authors = ["wolfpedro <pedro.wolf@alumni.usp.br>"]
 readme = "README.md"
 package-mode = false
 
@@ -10,6 +10,8 @@ package-mode = false
 python = ">=3.11,<3.13"
 python-dotenv = "~1.0.1"
 fastapi = "^0.118.0"
+django = "^5.2.7"
+django-cors-headers = "^4.9.0"
 
 [build-system]
 requires = ["poetry-core"]
