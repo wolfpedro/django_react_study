@@ -5,19 +5,24 @@ import Create from './components/Create'
 import Edit from './components/Edit'
 import Delete from './components/Delete'
 import './App.css'
-import Navbar from './components/navbar/navbar'
+import Navbar from './components/navbar/Navbar'
 
 function App() {
 
   return (
     <>
-      <Navbar />
-      <Routes>
-        <Route path="" element={<Home />} />
-        <Route path="/create" element={<Create />} />
-        <Route path="/edit/:id" element={<Edit />} />
-        <Route path="/delete/:id" element={<Delete />} />
-      </Routes>
+      <Navbar 
+        content={
+          <>
+            <Routes>
+              <Route path="" element={<Home />} />
+              <Route path="/create" element={<Create />} />
+              <Route path="/edit/:id" element={<Edit />} />
+              <Route path="/delete/:id" element={<Delete />} />
+            </Routes>
+          </>
+        }
+      />
     </>
   )
 }
