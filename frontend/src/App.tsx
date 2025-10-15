@@ -5,11 +5,13 @@ import Create from './components/Create'
 import Edit from './components/Edit'
 import Delete from './components/Delete'
 import './App.css'
+import Navbar from './components/navbar/navbar'
 
 function App() {
 
   return (
     <>
+      <Navbar />
       <Routes>
         <Route path="" element={<Home />} />
         <Route path="/create" element={<Create />} />
